@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Sahel';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/Sahel.eot');
+    src: url('../../fonts/Sahel.eot?#iefix') format('embedded-opentype'),
+    url('../../fonts/Sahel.woff') format('woff'),
+    url('../../fonts/Sahel.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'IranSans';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../../fonts/IranianSans.ttf');
+}
