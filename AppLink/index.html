@@ -1,0 +1,621 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AppLink-App Landing Page</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <header id="header" class="row">
+        <div id="mobile-menu-close-button" onclick="closeMenu();" class="mobile-only"></div>
+        <div id="mobile-menu-list" class="mobile-only">
+            <ul id="mobile-header-ul">
+                <a  href="#home">
+                    <li>Home</li>
+                </a>
+                <a  href="#features">
+                    <li>Features</li>
+                </a>
+                <a  href="#faq">
+                    <li>FAQ</li>
+                </a>
+                <a  href="#plans">
+                    <li>Plans</li>
+                </a>
+                <a  href="#team">
+                    <li>Team</li>
+                </a>
+                <a  href="#contact">
+                    <li>Contact</li>
+                </a>
+            </ul>
+            <div id="cta-button-mobile" class="inline-block">
+                <a href="#signup">
+                    Sign up
+                </a>
+            </div>
+        </div>
+        <div id="logo-text" class="inline-block">AppLink</div>
+        <ul id="header-main-ul-list" class="inline-block hidden-overflow no-list-style-type margin-auto desktop-only">
+            <a class="header-anchor" href="#home">
+                <li>Home</li>
+            </a>
+            <a class="header-anchor" href="#features">
+                <li>Features</li>
+            </a>
+            <a class="header-anchor" href="#faq">
+                <li>FAQ</li>
+            </a>
+            <a class="header-anchor" href="#plans">
+                <li>Plans</li>
+            </a>
+            <a class="header-anchor" href="#team">
+                <li>Team</li>
+            </a>
+            <a class="header-anchor" href="#contact">
+                <li>Contact</li>
+            </a>
+        </ul>
+        <div id="cta-button" class="inline-block desktop-only">
+            <a href="#signup">
+                Sign up
+            </a>
+        </div>
+        <div id="menu-icon" onclick="openMenu();" class="mobile-only">
+            <i id="menu-icon-i" class="material-icons">menu</i>
+        </div>
+    </header>
+    <div class="row">
+        <div id="header-section">
+            <div id="header-section-content">
+                <p id="header-section-title" class="header-text">
+                    The best and flexible App around the Web!
+                </p>
+                <p id="header-section-sub-title" class="header-text text-white">
+                    Vivamus sagittis lacus vel augue laoreet.
+                </p>
+                <p class="text-center relative">
+                    <a id="header-call-to-action" href="">Request a demo</a>
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background-color: #F6F7F9;">
+        <div class="container  relative">
+            <ul id="intro">
+                <li>
+                    <h1  class="title">
+                        Perfect on your mobile phone
+                    </h1>
+                    <h4 class="sub-title">
+                        Phasellus ac faucibus
+                    </h4>
+                    <p class="w-70-p text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus.
+                    </p>
+                    <a href="">Learn More</a>
+                </li>
+                <li>
+                    <img src="./img/phone.png" alt="img">
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <br><br>
+            <h1 class="title text-center">
+                App Features
+            </h1>
+            <p class="text-center down-arrow">
+                <i class='fas fa-angle-down'></i>
+            </p>
+            <br><br>
+            <ul id="features">
+                <li>
+                    <i class='fas fa-expand-arrows-alt'></i>
+                    <br><br>
+                    <h4 class="title">Flexible</h4>
+                    <br>
+                    <p class="text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor rutrum faucibus.
+                    </p>
+                </li>
+                <li>
+                    <i class="fas fa-shield-alt"></i>
+                    <br><br>
+                    <h4 class="title">Safe</h4>
+                    <br>
+                    <p class="text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor rutrum faucibus.
+                    </p>
+                </li>
+                <li>
+                    <i class="fas fa-space-shuttle"></i>
+                    <br><br>
+                    <h4 class="title">Fast</h4>
+                    <br>
+                    <p class="text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor rutrum faucibus.
+                    </p>
+                </li>
+                <li>
+                    <i class="far fa-smile-beam"></i>
+                    <br><br>
+                    <h4 class="title">Easy to use</h4>
+                    <br>
+                    <p class="text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor rutrum faucibus.
+                    </p>
+                </li>
+                <li>
+                    <i class="fas fa-wrench"></i>
+                    <br><br>
+                    <h4 class="title">Customizable</h4>
+                    <br>
+                    <p class="text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor rutrum faucibus.
+                    </p>
+                </li>
+                <li>
+                    <i class="fab fa-accessible-icon"></i>
+                    <br><br>
+                    <h4 class="title">Accessible</h4>
+                    <br>
+                    <p class="text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor rutrum faucibus.
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <h1 class="title text-center">
+                FAQS
+            </h1>
+            <p class="text-center down-arrow">
+                <i class='fas fa-angle-down'></i>
+            </p>
+            <br><br>
+            <div id="faq">
+                <h4 class="title">
+                    What is the AppLink application?
+                </h4>
+                <h4 class="title" style="margin-left: 7%;margin-right: 8%;">
+                    Is there a trial period?
+                </h4>
+                <h4 class="title">
+                    How does AppLink support works?
+                </h4>
+            </div>
+            <div id="faq">
+                <h4 class="title">
+                    What frequency of updates?
+                </h4>
+                <h4 class="title" style="margin-left:5%;margin-right:5%;">
+                    Under waht circumstances is refund allowed?
+                </h4>
+                <h4 class="title">
+                    There is a free version?
+                </h4>
+            </div>
+        </div>
+    </div>
+    <div class="row" style="background-color: #F6F7F9;">
+        <div class="container">
+            <br><br><br>
+            <ul id="clients">
+                <li style="top: 50px;">
+                    <h1  class="title">
+                        We have happy clients
+                    </h1>
+                    <br>
+                    <p class="w-70-p text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque faucibus sagittis fringilla. Vivamus quis velit mauris. Sed volutpat aliquam.
+                    </p>
+                </li>
+                <li>
+                   <ol id="four-part-grid-view">
+                       <li>
+                            <img src="./img/logo4.png" alt="logo1">
+                       </li>
+                       <li>
+                            <img src="./img/logo2.png" alt="logo2">
+                       </li>
+                       <li>
+                            <img src="./img/logo3.png" alt="logo3">
+                       </li>
+                       <li>
+                            <img src="./img/logo4.png" alt="logo4">
+                       </li>
+                    </ol>
+                </li>
+            </ul>
+            <br><br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <br><br>
+            <h1 class="title text-center">
+                The Creators
+            </h1>
+            <p class="text-center down-arrow">
+                <i class='fas fa-angle-down'></i>
+            </p>
+            <br><br>
+            <ul id="creators">
+                <li class="responsive-list">
+                    <img src="./img/profile3.jpg" alt="profile_img">
+                    <br><br>
+                    <h4 class="title">
+                        John Doe
+                    </h4>
+                    <h5 class="sub-title text">
+                        Developer
+                    </h5>
+                    <ul id="socials">
+                        <a href="">
+                            <li>
+                                <i class="fab fa-twitter"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </li>
+                <li class="responsive-list">
+                    <img src="./img/profile2.jpg" alt="profile_img">
+                    <br><br>
+                    <h4 class="title">
+                        Mary Doe
+                    </h4>
+                    <h5 class="sub-title text">
+                        Developer
+                    </h5>
+                    <ul id="socials">
+                        <a href="">
+                            <li>
+                                <i class="fab fa-twitter"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </li>
+                <li class="responsive-list">
+                    <img src="./img/profile4.jpg" alt="profile_img">
+                    <br><br>
+                    <h4 class="title">
+                        Jack Doe
+                    </h4>
+                    <h5 class="sub-title text">
+                        Developer
+                    </h5>
+                    <ul id="socials">
+                        <a href="">
+                            <li>
+                                <i class="fab fa-twitter"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" style="background-color: #F6F7F9;">
+        <div class="container" style="padding-right:0px;padding-left: 0px;">
+            <br><br><br>
+            <h1 class="title text-center">
+                Plans
+            </h1>
+            <p class="text-center down-arrow">
+                <i class='fas fa-angle-down'></i>
+            </p>
+            <ul id="plans">
+                <li class="responsive-list">
+                    <i class="fas fa-battery-quarter"></i>
+                    <br><br>
+                    <h4 class="title">Basic</h4>
+                    <br>
+                    <p class="text">
+                        Basic features <br>
+                        Phone support <br>
+                        Basic training for free <br>
+                    </p>
+                    <a href="">Choose</a>
+                </li>
+                <li class="responsive-list">
+                    <i class="fas fa-battery-half"></i>
+                    <br><br>
+                    <h4 class="title">Professional</h4>
+                    <br>
+                    <p class="text">
+                        Full features <br>
+                        Phone support <br>
+                        Basic training for free <br>
+                    </p>
+                    <a href="">Choose</a>
+                </li>
+                <li class="responsive-list">
+                    <i class="fas fa-battery-full"></i>
+                    <br><br>
+                    <h4 class="title">Enterprise</h4>
+                    <br>
+                    <p class="text">
+                        Full features <br>
+                        Personal  support <br>
+                        Full  training for free <br>
+                    </p>
+                    <a href="">Choose</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <br><br><br>
+            <h1 class="title text-center">
+                What the clients are saying?
+            </h1>
+            <p class="text-center down-arrow">
+                <i class='fas fa-angle-down'></i>
+            </p>
+            <ul id="comments">
+                <li class="responsive-list">
+                    <p id="comment" class="text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                    </p>
+                    <br><br>
+                    <div>
+                        <img src="./img/profile1.jpg" alt="profile_img">
+                        <div class="inline-block m-t-10" style="position: relative;top:12px;left: 20px;">
+                            <h4 class="title">
+                                Linda Doe
+                            </h4>
+                            <h6 class="text">
+                                Manager
+                            </h6>
+                        </div>
+                    </div>
+                </li>
+                <li class="responsive-list">
+                    <p id="comment" class="text">
+                        Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.
+                    </p>
+                    <br><br>
+                    <div>
+                        <img src="./img/profile2.jpg" alt="profile_img">
+                        <div class="inline-block m-t-10" style="position: relative;top:12px;left: 20px;">
+                            <h4 class="title">
+                                Mary Doe
+                            </h4>
+                            <h6 class="text">
+                                Manager
+                            </h6>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row"  id="free-trial" style="background-color: var(--theme-base-background-color);">
+        <div class="container">
+            <h1 class="white-color text-center">
+                Start your 30 days free trial now!
+            </h1>
+            <br>
+            <p class="white-color text-center text-white">
+                Start the free trial and subscribe to our newsletter
+            </p>
+            <br>
+            <form id="free-trial-form" action="" method="POST">
+                <center>
+                    <input type="submit" value="Subscribe">
+                </center>
+            </form>
+        </div>
+    </div>
+    <div class="row">
+        <div class="container">
+            <br><br>
+            <h1 class="title text-center">
+                The Creators
+            </h1>
+            <p class="text-center down-arrow">
+                <i class='fas fa-angle-down'></i>
+            </p>
+            <br><br>
+            <ul id="creators">
+                <li class="responsive-list">
+                    <img src="./img/profile3.jpg" alt="profile_img">
+                    <br><br>
+                    <h4 class="title">
+                        John Doe
+                    </h4>
+                    <h5 class="sub-title text">
+                        Developer
+                    </h5>
+                    <ul id="socials">
+                        <a href="">
+                            <li>
+                                <i class="fab fa-twitter"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </li>
+                <li class="responsive-list">
+                    <img src="./img/profile2.jpg" alt="profile_img">
+                    <br><br>
+                    <h4 class="title">
+                        Mary Doe
+                    </h4>
+                    <h5 class="sub-title text">
+                        Developer
+                    </h5>
+                    <ul id="socials">
+                        <a href="">
+                            <li>
+                                <i class="fab fa-twitter"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </li>
+                <li class="responsive-list">
+                    <img src="./img/profile4.jpg" alt="profile_img">
+                    <br><br>
+                    <h4 class="title">
+                        Jack Doe
+                    </h4>
+                    <h5 class="sub-title text" >
+                        Developer
+                    </h5>
+                    <ul id="socials">
+                        <a href="">
+                            <li>
+                                <i class="fab fa-twitter"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-facebook-f"></i>
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fab fa-instagram"></i>
+                            </li>
+                        </a>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="row" style="background-color: #F6F7F9;">
+        <div class="container">
+            <br><br>
+            <h1 class="title text-center">
+                Send a Message
+            </h1>
+            <p class="text-center down-arrow">
+                <i class='fas fa-angle-down'></i>
+            </p>
+            <form action="" id="contact-form">
+                <input type="text" class="text" placeholder="Your name">
+                <input class="text" onchange="invalidEmail(this);" type="email" placeholder="Your e-mail">
+                <div class="text" id="email-error" style="display: none;">
+                    This is not a valid email.
+                </div>
+                <div  id="email-margin"></div>
+                <input class="text" type="text" placeholder="Subject">
+                <textarea class="text" placeholder="Your message"></textarea>
+                <input type="submit" class="text-white" value="Send Message">
+            </form>
+        </div>
+    </div>
+    <footer>
+        <div class="row" style="background-color: #2B3038;">
+            <div class="container">
+                <ul id="footer">
+                    <li>
+                        <h3 id="app-link">
+                            AppLink
+                        </h3>
+                    </li>
+                    <li>
+                        <h4>Have any questions?</h4>
+                        <br>
+                        <p class="low-spirit-white-color text-grey">email@gmail.com</p>
+                    </li>
+                    <li>
+                        <h4>Phone</h4>
+                        <br>
+                        <p class="low-spirit-white-color text-grey">+1(12) 3456 7890</p>
+                    </li>
+                    <li>
+                        <h4>Follow us</h4>
+                        <br>
+                        <ul id="socials-dark">
+                            <a href="">
+                                <li>
+                                    <i class="fab fa-twitter"></i>
+                                </li>
+                            </a>
+                            <a href="">
+                                <li>
+                                    <i class="fab fa-facebook-f"></i>
+                                </li>
+                            </a>
+                            <a href="">
+                                <li>
+                                    <i class="fab fa-instagram"></i>
+                                </li>
+                            </a>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div onclick="goToTop()" id="call-to-top">
+            <a href="#">
+                <i class='fas fa-angle-up'></i>
+            </a>
+        </div>
+    </footer>
+</body>
+<script src="./js/scroll.js"></script>
+<script src="./js/menu.js"></script>
+<script src="./js/emailValidation.js"></script>
+</html>
