@@ -143,35 +143,46 @@ body{
 
 
 /* Animations */
+.animate-up,.animate-left,.animate-right,.animate-up-slow,.animate-up-slower,.animate-up-fast,.animate-up-faster{
+    visibility: hidden;
+}
 .animate-up[data-scroll="in"]{
+    visibility: visible;
     animation: fadeInUp;
     animation-duration: 750ms;
 }
 .animate-left[data-scroll="in"]{
+    visibility: visible;
     animation: fadeInLeft;
     animation-duration: 750ms;
 }
 .animate-right[data-scroll="in"]{
+    visibility: visible;
     animation: fadeInRight;
     animation-duration: 750ms;
 }
 .animate-up[data-scroll="in"]{
+    visibility: visible;
     animation: fadeInUp;
     animation-duration: 1000ms;
 }
 .animate-up-fast[data-scroll="in"]{
+    visibility: visible;
     animation: fadeInUp;
     animation-duration: 750ms;
 }
 .animate-up-faster[data-scroll="in"]{
+    visibility: visible;
     animation: fadeInUp;
     animation-duration: 500ms;
 }
 .animate-up-slow[data-scroll="in"]{
+    visibility: visible;
     animation: fadeInUp;
     animation-duration: 1250ms;
 }
 .animate-up-slower[data-scroll="in"]{
+    visibility: visible;
     animation: fadeInUp;
     animation-duration: 1500ms;
 }
